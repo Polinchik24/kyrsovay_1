@@ -6,17 +6,16 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class VariablesActivity extends AppCompatActivity {
+public class ConditionsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_main_c1);
 
-        Button button = findViewById(R.id.button3var);
+        Button button = findViewById(R.id.button3);
         button.setOnClickListener(v -> {
-            Intent intent = new Intent(VariablesActivity.this,SecondActivity.class);
+            Intent intent = new Intent(ConditionsActivity.this,SecondActivity.class);
             startActivity(intent);
         });
     }
 }
-

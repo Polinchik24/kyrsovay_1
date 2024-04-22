@@ -12,7 +12,7 @@ public class Vtesting1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-        Button button = findViewById(R.id.button3_var);
+        Button button = findViewById(R.id.button3);
         button.setOnClickListener(v -> {
             Intent intent = new Intent(Vtesting1.this,Vtesting1.class);
             startActivity(intent);

@@ -19,8 +19,6 @@
         </activity>
 
         <activity
-<<<<<<< HEAD
-=======
             android:name=".VariablesActivity">
         </activity>
 
@@ -29,7 +27,6 @@
         </activity>
 
         <activity
->>>>>>> 2c48593 (kyrsovay)
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
